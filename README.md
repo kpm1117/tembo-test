@@ -1,3 +1,9 @@
+### Summary
+* Just a basic API demonstrating access to a NoSQL database containing character profiles and stats from the Marvel universe.
+
+### Firebase Credentials
+* A crentials files must exist under /private/<filename> in order for the API to work correctly. This file contains a key that gives the API access to the relevant project. I will provide it separately.
+
 ### Additional Notes
 * The FIRST APPEARANCE values in the source files contain two different date formats: Aaa-nn and [n]n-Aaa where a is alpha (for the year) and n is numeric (for the month). For consistency and sorting purposes, I converted to yyyy-mm.
 * Some of the columns contained redundant language (e.g. Hair:Blond Hair) which I made an effort to reduce in the data_import ETL.
